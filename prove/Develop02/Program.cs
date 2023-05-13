@@ -13,7 +13,7 @@ public class Program
     {
         
         Console.WriteLine();
-        Console.Write("Choose a option: ");
+        Console.Write("Choose a option:");
         Console.WriteLine();
         Console.WriteLine("1) Write");
         Console.WriteLine("2) Display");
