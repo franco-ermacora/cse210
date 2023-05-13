@@ -9,7 +9,8 @@ public class Program
         TxtRead texts = new TxtRead();
         Question qts = new Question();
         Console.WriteLine("Welcome to the Journal Project");
-    do {
+    while (number != 5)
+    {
         
         Console.WriteLine();
         Console.Write("Choose a option: ");
@@ -65,6 +66,6 @@ public class Program
             
             break;
         }    
-        } while (number != 5);
+        } 
     }
 }
