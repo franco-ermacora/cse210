@@ -41,7 +41,6 @@ public class Program
             case 2:
             Console.WriteLine();
             texts.Displaytexts();
-            Console.WriteLine();
             break;
         
             case 3:
@@ -60,10 +59,7 @@ public class Program
             break;
 
             case 4:
-            Console.WriteLine();
-            Console.WriteLine("Thank you for understanding ♡");
-            Console.WriteLine();
-            
+            Console.WriteLine("Thank you for understanding ♡");          
             break;
         }    
         } 
