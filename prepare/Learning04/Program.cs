@@ -7,7 +7,7 @@ class Program
                 Assignment assig1 = new Assignment("Pedro Puno", "Multiplication");
         Console.WriteLine(assig1.GetSummary());
 
-        // Now create the derived class assignments
+       
         MathAssignment assig2 = new MathAssignment("Joseph Carrick", "Divisions", "7.3", "8-19");
         Console.WriteLine(assig2.GetSummary());
         Console.WriteLine(assig2.GetHomeworkList());
